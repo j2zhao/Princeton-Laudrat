@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D7713B61BF7E260004ABA23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7713B51BF7E260004ABA23 /* AppDelegate.swift */; };
+		9D7713B81BF7E260004ABA23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7713B71BF7E260004ABA23 /* ViewController.swift */; };
+		9D7713BB1BF7E260004ABA23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7713B91BF7E260004ABA23 /* Main.storyboard */; };
+		9D7713BD1BF7E260004ABA23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7713BC1BF7E260004ABA23 /* Assets.xcassets */; };
+		9D7713C01BF7E260004ABA23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7713BE1BF7E260004ABA23 /* LaunchScreen.storyboard */; };
+		9D7713CB1BF7E260004ABA23 /* Princeton_LaudratTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7713CA1BF7E260004ABA23 /* Princeton_LaudratTests.swift */; };
+		9D7713D61BF7E260004ABA23 /* Princeton_LaudratUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7713D51BF7E260004ABA23 /* Princeton_LaudratUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D7713C71BF7E260004ABA23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D7713AA1BF7E25F004ABA23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D7713B11BF7E260004ABA23;
+			remoteInfo = "Princeton Laudrat";
+		};
+		9D7713D21BF7E260004ABA23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D7713AA1BF7E25F004ABA23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D7713B11BF7E260004ABA23;
+			remoteInfo = "Princeton Laudrat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D7713B21BF7E260004ABA23 /* Princeton Laudrat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Princeton Laudrat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7713B51BF7E260004ABA23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D7713B71BF7E260004ABA23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D7713BA1BF7E260004ABA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D7713BC1BF7E260004ABA23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D7713BF1BF7E260004ABA23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D7713C11BF7E260004ABA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7713C61BF7E260004ABA23 /* Princeton LaudratTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Princeton LaudratTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7713CA1BF7E260004ABA23 /* Princeton_LaudratTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Princeton_LaudratTests.swift; sourceTree = "<group>"; };
+		9D7713CC1BF7E260004ABA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7713D11BF7E260004ABA23 /* Princeton LaudratUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Princeton LaudratUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7713D51BF7E260004ABA23 /* Princeton_LaudratUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Princeton_LaudratUITests.swift; sourceTree = "<group>"; };
+		9D7713D71BF7E260004ABA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D7713AF1BF7E260004ABA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7713C31BF7E260004ABA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7713CE1BF7E260004ABA23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D7713A91BF7E25F004ABA23 = {
+			isa = PBXGroup;
+			children = (
+				9D7713B41BF7E260004ABA23 /* Princeton Laudrat */,
+				9D7713C91BF7E260004ABA23 /* Princeton LaudratTests */,
+				9D7713D41BF7E260004ABA23 /* Princeton LaudratUITests */,
+				9D7713B31BF7E260004ABA23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D7713B31BF7E260004ABA23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D7713B21BF7E260004ABA23 /* Princeton Laudrat.app */,
+				9D7713C61BF7E260004ABA23 /* Princeton LaudratTests.xctest */,
+				9D7713D11BF7E260004ABA23 /* Princeton LaudratUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D7713B41BF7E260004ABA23 /* Princeton Laudrat */ = {
+			isa = PBXGroup;
+			children = (
+				9D7713B51BF7E260004ABA23 /* AppDelegate.swift */,
+				9D7713B71BF7E260004ABA23 /* ViewController.swift */,
+				9D7713B91BF7E260004ABA23 /* Main.storyboard */,
+				9D7713BC1BF7E260004ABA23 /* Assets.xcassets */,
+				9D7713BE1BF7E260004ABA23 /* LaunchScreen.storyboard */,
+				9D7713C11BF7E260004ABA23 /* Info.plist */,
+			);
+			path = "Princeton Laudrat";
+			sourceTree = "<group>";
+		};
+		9D7713C91BF7E260004ABA23 /* Princeton LaudratTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D7713CA1BF7E260004ABA23 /* Princeton_LaudratTests.swift */,
+				9D7713CC1BF7E260004ABA23 /* Info.plist */,
+			);
+			path = "Princeton LaudratTests";
+			sourceTree = "<group>";
+		};
+		9D7713D41BF7E260004ABA23 /* Princeton LaudratUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D7713D51BF7E260004ABA23 /* Princeton_LaudratUITests.swift */,
+				9D7713D71BF7E260004ABA23 /* Info.plist */,
+			);
+			path = "Princeton LaudratUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D7713B11BF7E260004ABA23 /* Princeton Laudrat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7713DA1BF7E260004ABA23 /* Build configuration list for PBXNativeTarget "Princeton Laudrat" */;
+			buildPhases = (
+				9D7713AE1BF7E260004ABA23 /* Sources */,
+				9D7713AF1BF7E260004ABA23 /* Frameworks */,
+				9D7713B01BF7E260004ABA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Princeton Laudrat";
+			productName = "Princeton Laudrat";
+			productReference = 9D7713B21BF7E260004ABA23 /* Princeton Laudrat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D7713C51BF7E260004ABA23 /* Princeton LaudratTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7713DD1BF7E260004ABA23 /* Build configuration list for PBXNativeTarget "Princeton LaudratTests" */;
+			buildPhases = (
+				9D7713C21BF7E260004ABA23 /* Sources */,
+				9D7713C31BF7E260004ABA23 /* Frameworks */,
+				9D7713C41BF7E260004ABA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D7713C81BF7E260004ABA23 /* PBXTargetDependency */,
+			);
+			name = "Princeton LaudratTests";
+			productName = "Princeton LaudratTests";
+			productReference = 9D7713C61BF7E260004ABA23 /* Princeton LaudratTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D7713D01BF7E260004ABA23 /* Princeton LaudratUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7713E01BF7E260004ABA23 /* Build configuration list for PBXNativeTarget "Princeton LaudratUITests" */;
+			buildPhases = (
+				9D7713CD1BF7E260004ABA23 /* Sources */,
+				9D7713CE1BF7E260004ABA23 /* Frameworks */,
+				9D7713CF1BF7E260004ABA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D7713D31BF7E260004ABA23 /* PBXTargetDependency */,
+			);
+			name = "Princeton LaudratUITests";
+			productName = "Princeton LaudratUITests";
+			productReference = 9D7713D11BF7E260004ABA23 /* Princeton LaudratUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D7713AA1BF7E25F004ABA23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jinjin Zhao";
+				TargetAttributes = {
+					9D7713B11BF7E260004ABA23 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					9D7713C51BF7E260004ABA23 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9D7713B11BF7E260004ABA23;
+					};
+					9D7713D01BF7E260004ABA23 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9D7713B11BF7E260004ABA23;
+					};
+				};
+			};
+			buildConfigurationList = 9D7713AD1BF7E260004ABA23 /* Build configuration list for PBXProject "Princeton Laudrat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D7713A91BF7E25F004ABA23;
+			productRefGroup = 9D7713B31BF7E260004ABA23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D7713B11BF7E260004ABA23 /* Princeton Laudrat */,
+				9D7713C51BF7E260004ABA23 /* Princeton LaudratTests */,
+				9D7713D01BF7E260004ABA23 /* Princeton LaudratUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D7713B01BF7E260004ABA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7713C01BF7E260004ABA23 /* LaunchScreen.storyboard in Resources */,
+				9D7713BD1BF7E260004ABA23 /* Assets.xcassets in Resources */,
+				9D7713BB1BF7E260004ABA23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7713C41BF7E260004ABA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7713CF1BF7E260004ABA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D7713AE1BF7E260004ABA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7713B81BF7E260004ABA23 /* ViewController.swift in Sources */,
+				9D7713B61BF7E260004ABA23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7713C21BF7E260004ABA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7713CB1BF7E260004ABA23 /* Princeton_LaudratTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7713CD1BF7E260004ABA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7713D61BF7E260004ABA23 /* Princeton_LaudratUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D7713C81BF7E260004ABA23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D7713B11BF7E260004ABA23 /* Princeton Laudrat */;
+			targetProxy = 9D7713C71BF7E260004ABA23 /* PBXContainerItemProxy */;
+		};
+		9D7713D31BF7E260004ABA23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D7713B11BF7E260004ABA23 /* Princeton Laudrat */;
+			targetProxy = 9D7713D21BF7E260004ABA23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D7713B91BF7E260004ABA23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D7713BA1BF7E260004ABA23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D7713BE1BF7E260004ABA23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D7713BF1BF7E260004ABA23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D7713D81BF7E260004ABA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D7713D91BF7E260004ABA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D7713DB1BF7E260004ABA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Princeton Laudrat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jimjim.Princeton-Laudrat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D7713DC1BF7E260004ABA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Princeton Laudrat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jimjim.Princeton-Laudrat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D7713DE1BF7E260004ABA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Princeton LaudratTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jimjim.Princeton-LaudratTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Princeton Laudrat.app/Princeton Laudrat";
+			};
+			name = Debug;
+		};
+		9D7713DF1BF7E260004ABA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Princeton LaudratTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jimjim.Princeton-LaudratTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Princeton Laudrat.app/Princeton Laudrat";
+			};
+			name = Release;
+		};
+		9D7713E11BF7E260004ABA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Princeton LaudratUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jimjim.Princeton-LaudratUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Princeton Laudrat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9D7713E21BF7E260004ABA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Princeton LaudratUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jimjim.Princeton-LaudratUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Princeton Laudrat";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D7713AD1BF7E260004ABA23 /* Build configuration list for PBXProject "Princeton Laudrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7713D81BF7E260004ABA23 /* Debug */,
+				9D7713D91BF7E260004ABA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7713DA1BF7E260004ABA23 /* Build configuration list for PBXNativeTarget "Princeton Laudrat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7713DB1BF7E260004ABA23 /* Debug */,
+				9D7713DC1BF7E260004ABA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D7713DD1BF7E260004ABA23 /* Build configuration list for PBXNativeTarget "Princeton LaudratTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7713DE1BF7E260004ABA23 /* Debug */,
+				9D7713DF1BF7E260004ABA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D7713E01BF7E260004ABA23 /* Build configuration list for PBXNativeTarget "Princeton LaudratUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7713E11BF7E260004ABA23 /* Debug */,
+				9D7713E21BF7E260004ABA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D7713AA1BF7E25F004ABA23 /* Project object */;
+}
