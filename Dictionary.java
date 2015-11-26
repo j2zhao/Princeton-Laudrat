@@ -115,6 +115,7 @@ public class Dictionary {
     public static void main(String[] args) {
         // Makes a test Dictionary
         Dictionary dict = new Dictionary(
+            new String[] { "First thing", "Second thing", "Third thing" },
             new int[]    {       1,              2,              3      });
 
         System.out.println("The first data value is " + dict.dataAt("First thing"));
